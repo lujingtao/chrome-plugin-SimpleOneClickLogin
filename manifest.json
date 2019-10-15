@@ -1,0 +1,16 @@
+{
+	"name" : "ZX.OneClickLogin", //插件名称
+
+	"version" : "1.0",
+
+	"background": { "scripts": ["background.js"] },
+
+	 "icons": { "16": "images/logo16.png","48": "images/logo48.png","128": "images/logo128.png" },
+
+	"browser_action": {
+		"default_icon" : "images/logo16.png",
+		"default_title" : "一键登录"
+	},
+
+  	"permissions" : [ "tabs", "http://*/*","notifications" ]
+}
